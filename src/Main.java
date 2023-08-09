@@ -9,7 +9,9 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         List<Website> meusWebsites = new ArrayList<>();
 
+        System.out.print("Qual nome do site: ");
         String nome = scanner.nextLine();
+        System.out.print("Qual endereço do site: ");
         String url = scanner.nextLine();
 
         Website website = new Website();
